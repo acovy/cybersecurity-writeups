@@ -23,7 +23,7 @@ The OSI model describes the **structure of network communication**. It consists 
 The numbering starts from the Physical layer (1) to the Application layer (7).  
 💡 Mnemonic: *“Please Do Not Throw Spinach Pizza Away”* helps remember the layer order.  
 
-![osi_model](./assets/layers.png)
+![osi_model](networking/assets/layers.png)
 
 ---
 
@@ -31,7 +31,7 @@ The numbering starts from the Physical layer (1) to the Application layer (7).
 The physical layer is responsible for the **physical connection** between devices: cables, antennas, optical fibers, WiFi bands.  
 Examples: Ethernet, optical fiber, WiFi (2.4, 5, 6 GHz).
 
-![physical_layer](./assets/physical_l1.png)
+![physical_layer](networking/assets/physical_l1.png)
 
 ---
 
@@ -40,10 +40,10 @@ The data link layer ensures **data transfer between nodes within the same networ
 - Protocols: Ethernet (802.3), WiFi (802.11)  
 - MAC addresses: unique device identifiers (6 bytes, hex)
 
-![data_link_layer](./assets/datalink_l2.png)
+![data_link_layer](networking/assets/datalink_l2.png)
 
 Example of an Ethernet frame with MAC addresses:
-![mac_addresses](./assets/datalink_l2_1.png)
+![mac_addresses](networking/assets/datalink_l2_1.png)
 
 ---
 
@@ -52,7 +52,7 @@ The network layer is responsible for **data transfer between different networks*
 - Logical addressing and routing  
 - Protocols: IP, ICMP, VPN (IPSec, SSL/TLS)
 
-![network_layer](./assets/network_l3.png)
+![network_layer](networking/assets/network_l3.png)
 
 ---
 
