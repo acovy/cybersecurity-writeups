@@ -122,15 +122,15 @@ Using a reverse or bind shell, exploit the command injection vulnerability to ge
 
 I'll start with the URL of the target page. 
 
-![Landing Page (Port 8080)](./assets/first.png)
+![Landing Page (Port 8080)](./assets/one.png)
 
 The target page (port 8080) redirects us to a URL on port 8081 — that's exactly when I noticed an opportunity to inject malicious commands through the input field.
 
-![Hosts the web application that is vulnerable to command injection)](./assets/second.png)
+![Hosts the web application that is vulnerable to command injection)](./assets/two.png)
 
 First, I need to listen on the specified IP and port. Second, I need a payload that will provide a reverse shell.
 
-![Listen port](./assets/third.png)
+![Listen port](./assets/three.png)
 
 Set up a netcat listener on port 8081. Once netcat started accepting connections from the target machine, I needed a payload to get a reverse shell on the web server.
 
