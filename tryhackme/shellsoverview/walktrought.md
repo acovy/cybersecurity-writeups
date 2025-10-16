@@ -194,7 +194,10 @@ Following the hint in the challenge, the area of relevance appears to be **/uplo
 
 **Answer:** `THM{202bb14ed12120b31300cfbbbdd35998786b44e5}`
 
+-----
 
+Thanks for reading:
+It's me: ***commostudent***
 
 
 
